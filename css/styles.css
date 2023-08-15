@@ -1,0 +1,175 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+/* Landing Page Styles */
+header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    background-image: url('../media/landing_page.jpg');
+    opacity:0.9 ;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.4rem;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+/* About Section Styles */
+#about {
+    padding: 100px 0;
+}
+
+#about h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Courses Section Styles */
+#courses {
+    padding: 100px 0;
+}
+
+#courses h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#courses .card {
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+#courses .card:hover {
+    transform: scale(1.05);
+}
+
+#courses .card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#courses .list-unstyled li {
+    padding-left: 35px;
+    position: relative;
+}
+
+#courses .list-unstyled li:before {
+    content: '\f0eb';
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    color: #007bff;
+}
+
+/* Testimonials Section Styles */
+#testimonials {
+    padding: 100px 0;
+}
+
+#testimonials h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.testimonial-card {
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+}
+
+.testimonial-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* Form Section Styles */
+#form {
+    padding: 100px 0;
+}
+
+#form h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#contact-form .form-control {
+    border-color: #ddd;
+}
+
+#contact-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+#contact-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 100px 0;
+    /*background-color: #007bff;*/
+}
+
+#contact h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Footer Styles */
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
